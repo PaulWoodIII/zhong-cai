@@ -7,12 +7,16 @@
 //
 
 #import "PWAppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation PWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    [Parse setApplicationId:PARSE_APP_ID
+                  clientKey:PARSE_CLIENT_KEY];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
+    [PFUser enableAutomaticUser];
     return YES;
 }
 							
