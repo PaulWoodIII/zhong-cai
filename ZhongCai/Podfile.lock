@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (1.3.2)
+  - AFOAuth2Client (0.1.1):
+    - AFNetworking (~> 1.0)
+  - AFUrbanAirshipClient (0.0.1):
+    - AFNetworking (~> 1.0)
+  - DWTagList (0.0.2)
+  - Facebook-iOS-SDK (3.8.0)
+  - FlurrySDK (4.2.3)
+  - FPPopover (1.4.1)
+  - iOS7Colors (2.0.0)
+  - libwebp (0.3.0-rc7):
+    - libwebp/dec
+    - libwebp/dsp
+    - libwebp/utils
+    - libwebp/webp
+  - libwebp/dec (0.3.0-rc7)
+  - libwebp/dsp (0.3.0-rc7)
+  - libwebp/utils (0.3.0-rc7)
+  - libwebp/webp (0.3.0-rc7)
+  - Parse (1.2.13):
+    - Facebook-iOS-SDK (~> 3.5)
+  - SDWebImage (3.4):
+    - libwebp
+    - SDWebImage/MapKit
+  - SDWebImage/MapKit (3.4):
+    - libwebp
+  - SSKeychain (1.1.0)
+  - SSPullToRefresh (1.1.2)
+  - SSToolkit (1.0.4)
+  - Tapstream (2.3)
+  - UIAlertView-Blocks (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (~> 1.3.1)
+  - AFOAuth2Client (~> 0.1.1)
+  - AFUrbanAirshipClient (~> 0.0.1)
+  - DWTagList (~> 0.0.2)
+  - FlurrySDK (~> 4.2.3)
+  - FPPopover (~> 1.4.1)
+  - iOS7Colors (~> 2.0.0)
+  - Parse (~> 1.2.12)
+  - SDWebImage (~> 3.4)
+  - SSKeychain (~> 1.1.0)
+  - SSPullToRefresh (~> 1.1.2)
+  - SSToolkit (~> 1.0.4)
+  - Tapstream
+  - UIAlertView-Blocks (~> 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 7f9bcd7c287a75476cd5c61e82fd3380e93e4c54
+  AFOAuth2Client: 039596f19e8a4bdd852cb3fc44ddbe45e12c290a
+  AFUrbanAirshipClient: 67773bd4a3fc845b6fc596015df23abfa6e22dac
+  DWTagList: 76302ed894130ed285e95eb11e704a55593101ab
+  Facebook-iOS-SDK: 55a22fe8bcaacd638cde9014af6b3ee85f4d71fb
+  FlurrySDK: 20b3fd669eeafd005ca8ff65a1406d1befbc8031
+  FPPopover: 0289b796c031d8f27bd221d93d282ffe23619893
+  iOS7Colors: 80d700ca0fe4415eeea1cfb74d4d790ffa0375ab
+  libwebp: 40517fa1fd3716eded73b4696c45fc0b66e4b414
+  Parse: 71038f6c13fef880c628db7a2725bb7138ead81a
+  SDWebImage: f13f791e411c632489824aa7f129e230b52bf5c4
+  SSKeychain: 54b6daee1d95af968beebef07522b583ff9a809c
+  SSPullToRefresh: 8d8360b0ff0dc7b344656b48ddf9732c47e78806
+  SSToolkit: 689acaedac79c2079e492e528a55bcb5db9d98c4
+  Tapstream: c999a7e7870dbe40847a8dec56fdb07410b12bc6
+  UIAlertView-Blocks: 7689ad7dd941417e7a7da81507482bc6f4f15bcd
+
+COCOAPODS: 0.24.0
