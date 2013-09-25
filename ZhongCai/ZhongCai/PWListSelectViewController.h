@@ -1,5 +1,5 @@
 //
-//  PWViewController.h
+//  PWListSelectViewController.h
 //  ZhongCai
 //
 //  Created by Paul Wood on 9/23/13.
@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 #import <Parse/Parse.h>
 
-@interface PWViewController : UIViewController
+@interface PWListSelectViewController : UITableViewController
 
 @end

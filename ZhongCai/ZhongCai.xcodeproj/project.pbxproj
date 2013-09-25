@@ -26,6 +26,15 @@
 		DA910F0F17F01675007E2DBD /* PWTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA910F0E17F01675007E2DBD /* PWTagsViewController.m */; };
 		DAA57EF917F0465E00523EFA /* PWAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA57EF817F0465E00523EFA /* PWAddTagViewController.m */; };
 		DAA57EFC17F0487800523EFA /* PWAddImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA57EFB17F0487800523EFA /* PWAddImageViewController.m */; };
+		DAB4D21D17F0850B001668B8 /* PWAddDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D21C17F0850B001668B8 /* PWAddDishViewController.m */; };
+		DAB4D22017F08523001668B8 /* PWMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D21F17F08523001668B8 /* PWMoreViewController.m */; };
+		DAB4D22317F08549001668B8 /* PWAddListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D22217F08549001668B8 /* PWAddListViewController.m */; };
+		DAB4D22617F085AD001668B8 /* PWDishListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D22517F085AD001668B8 /* PWDishListTableViewController.m */; };
+		DAB4D22917F08FBE001668B8 /* PWTaggedDishes.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D22817F08FBE001668B8 /* PWTaggedDishes.m */; };
+		DAB4D22C17F08FED001668B8 /* PWDishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D22B17F08FED001668B8 /* PWDishViewController.m */; };
+		DAB4D22F17F090E8001668B8 /* PWListSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D22E17F090E8001668B8 /* PWListSelectViewController.m */; };
+		DAB4D23217F0917F001668B8 /* PWListedDishesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D23117F0917F001668B8 /* PWListedDishesViewController.m */; };
+		DAB4D23517F1394D001668B8 /* PWAddIngredientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAB4D23417F1394D001668B8 /* PWAddIngredientViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +78,24 @@
 		DAA57EF817F0465E00523EFA /* PWAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAddTagViewController.m; sourceTree = "<group>"; };
 		DAA57EFA17F0487800523EFA /* PWAddImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAddImageViewController.h; sourceTree = "<group>"; };
 		DAA57EFB17F0487800523EFA /* PWAddImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAddImageViewController.m; sourceTree = "<group>"; };
+		DAB4D21B17F0850B001668B8 /* PWAddDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAddDishViewController.h; sourceTree = "<group>"; };
+		DAB4D21C17F0850B001668B8 /* PWAddDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAddDishViewController.m; sourceTree = "<group>"; };
+		DAB4D21E17F08523001668B8 /* PWMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWMoreViewController.h; sourceTree = "<group>"; };
+		DAB4D21F17F08523001668B8 /* PWMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWMoreViewController.m; sourceTree = "<group>"; };
+		DAB4D22117F08549001668B8 /* PWAddListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAddListViewController.h; sourceTree = "<group>"; };
+		DAB4D22217F08549001668B8 /* PWAddListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAddListViewController.m; sourceTree = "<group>"; };
+		DAB4D22417F085AD001668B8 /* PWDishListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDishListTableViewController.h; sourceTree = "<group>"; };
+		DAB4D22517F085AD001668B8 /* PWDishListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDishListTableViewController.m; sourceTree = "<group>"; };
+		DAB4D22717F08FBE001668B8 /* PWTaggedDishes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWTaggedDishes.h; sourceTree = "<group>"; };
+		DAB4D22817F08FBE001668B8 /* PWTaggedDishes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWTaggedDishes.m; sourceTree = "<group>"; };
+		DAB4D22A17F08FED001668B8 /* PWDishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWDishViewController.h; sourceTree = "<group>"; };
+		DAB4D22B17F08FED001668B8 /* PWDishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWDishViewController.m; sourceTree = "<group>"; };
+		DAB4D22D17F090E8001668B8 /* PWListSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWListSelectViewController.h; sourceTree = "<group>"; };
+		DAB4D22E17F090E8001668B8 /* PWListSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWListSelectViewController.m; sourceTree = "<group>"; };
+		DAB4D23017F0917F001668B8 /* PWListedDishesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWListedDishesViewController.h; sourceTree = "<group>"; };
+		DAB4D23117F0917F001668B8 /* PWListedDishesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWListedDishesViewController.m; sourceTree = "<group>"; };
+		DAB4D23317F1394D001668B8 /* PWAddIngredientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PWAddIngredientViewController.h; sourceTree = "<group>"; };
+		DAB4D23417F1394D001668B8 /* PWAddIngredientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PWAddIngredientViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +174,24 @@
 				DAA57EF817F0465E00523EFA /* PWAddTagViewController.m */,
 				DAA57EFA17F0487800523EFA /* PWAddImageViewController.h */,
 				DAA57EFB17F0487800523EFA /* PWAddImageViewController.m */,
+				DAB4D21B17F0850B001668B8 /* PWAddDishViewController.h */,
+				DAB4D21C17F0850B001668B8 /* PWAddDishViewController.m */,
+				DAB4D21E17F08523001668B8 /* PWMoreViewController.h */,
+				DAB4D21F17F08523001668B8 /* PWMoreViewController.m */,
+				DAB4D22117F08549001668B8 /* PWAddListViewController.h */,
+				DAB4D22217F08549001668B8 /* PWAddListViewController.m */,
+				DAB4D22417F085AD001668B8 /* PWDishListTableViewController.h */,
+				DAB4D22517F085AD001668B8 /* PWDishListTableViewController.m */,
+				DAB4D22717F08FBE001668B8 /* PWTaggedDishes.h */,
+				DAB4D22817F08FBE001668B8 /* PWTaggedDishes.m */,
+				DAB4D22A17F08FED001668B8 /* PWDishViewController.h */,
+				DAB4D22B17F08FED001668B8 /* PWDishViewController.m */,
+				DAB4D22D17F090E8001668B8 /* PWListSelectViewController.h */,
+				DAB4D22E17F090E8001668B8 /* PWListSelectViewController.m */,
+				DAB4D23017F0917F001668B8 /* PWListedDishesViewController.h */,
+				DAB4D23117F0917F001668B8 /* PWListedDishesViewController.m */,
+				DAB4D23317F1394D001668B8 /* PWAddIngredientViewController.h */,
+				DAB4D23417F1394D001668B8 /* PWAddIngredientViewController.m */,
 			);
 			path = ZhongCai;
 			sourceTree = "<group>";
@@ -313,9 +358,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAB4D22017F08523001668B8 /* PWMoreViewController.m in Sources */,
 				DA910EEB17F00E8F007E2DBD /* PWViewController.m in Sources */,
+				DAB4D23517F1394D001668B8 /* PWAddIngredientViewController.m in Sources */,
 				DA910F0F17F01675007E2DBD /* PWTagsViewController.m in Sources */,
 				DAA57EF917F0465E00523EFA /* PWAddTagViewController.m in Sources */,
+				DAB4D21D17F0850B001668B8 /* PWAddDishViewController.m in Sources */,
+				DAB4D22317F08549001668B8 /* PWAddListViewController.m in Sources */,
+				DAB4D22917F08FBE001668B8 /* PWTaggedDishes.m in Sources */,
+				DAB4D22617F085AD001668B8 /* PWDishListTableViewController.m in Sources */,
+				DAB4D22C17F08FED001668B8 /* PWDishViewController.m in Sources */,
+				DAB4D23217F0917F001668B8 /* PWListedDishesViewController.m in Sources */,
+				DAB4D22F17F090E8001668B8 /* PWListSelectViewController.m in Sources */,
 				DAA57EFC17F0487800523EFA /* PWAddImageViewController.m in Sources */,
 				DA910EE117F00E8F007E2DBD /* main.m in Sources */,
 				DA910F0C17F014BF007E2DBD /* PWTabBarController.m in Sources */,

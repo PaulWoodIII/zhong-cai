@@ -36,7 +36,13 @@
 }
 
 - (IBAction)skipPressed:(id)sender{
-    [self.parentViewController dismissViewControllerAnimated:YES completion:nil];
+    if (self.parentViewController) {
+        NSLog(@"%@",self.parentViewController);
+        [self.parentViewController dismissViewControllerAnimated:YES completion:nil];
+    }
+    else {
+        [self.navigationController popToRootViewControllerAnimated:YES];
+    }
 }
 
 - (IBAction)cameraButtonTapped:(id)sender
@@ -80,13 +86,14 @@
                 else{
                     // Log details of the failure
                     NSLog(@"Error: %@ %@", error, [error userInfo]);
-
+                    [self cameraButtonTapped:nil];
                 }
             }];
         }
         else{
             // Log details of the failure
             NSLog(@"Error: %@ %@", error, [error userInfo]);
+                    [self cameraButtonTapped:nil];
         }
     } progressBlock:^(int percentDone) {
         // Update your progress spinner here. percentDone will be between 0 and 100.
@@ -116,6 +123,8 @@
     [self uploadImage:imageData];
 }
 
-
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker{
+    [self skipPressed:nil];
+}
 
 @end
